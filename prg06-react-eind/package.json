@@ -1,0 +1,14 @@
+{
+  "name": "prg06-react-eind",
+  "version": "1.0.0",
+  "description": "PRG06 eindproject",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
+}
