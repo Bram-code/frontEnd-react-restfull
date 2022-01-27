@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: grey;
+}
+
+.App {
+    background-color: white;
+    padding: 10px;
+}
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -25px;
+}
+
+.allAbout{
+    background-color: lightpink;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 4mm ridge plum;
+    border-radius: 20px;
+}
+
+.About {
+    background-color: lightcyan;
+    padding:10px;
+    margin:10px;
+    border: 4mm ridge cyan;
+    width: 350px;
+    text-align: center;
+}
+
+.edit{
+    text-align: left;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lightcyan;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 4mm ridge cyan;
+    border-radius: 20px;
+}
+
+.create{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 200px;
+}
+
+input{
+    display: inline-block;
+}
+
+.info{
+    content: url("https://www.freeiconspng.com/thumbs/arrow-icon/right-arrow-icon-27.png");
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: none;
+}
+
+.info2{
+    content: url("https://delphismarketing.nl/wp-content/uploads/2017/02/arrow-down.png");
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: none;
+}
+
+.editButton{
+    margin-top: 10px;
+}
+
+button{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:black;
+    background-color: pink;
+    text-align:center;
+    transition: all 0.2s;
+    }
+
+button:hover{
+    color:pink;
+    background-color:#FFFFFF;
+    }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.details{
+    background-color: lightpink;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    text-align: center;
+    border: 4mm ridge plum;
+    border-radius: 20px;
+}
+/*# sourceMappingURL=index.4d663569.css.map */
